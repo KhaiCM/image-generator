@@ -10,8 +10,8 @@ from utils import get_data
 
 def get_args():
     parser = argparse.ArgumentParser("Image to ASCII")
-    parser.add_argument("--input", type=str, default="data/suboi.jpg", help="Path to input image")
-    parser.add_argument("--output", type=str, default="out_put/suboi_black_1.jpg", help="Path to output text file")
+    parser.add_argument("--input", type=str, default="data/dip.png", help="Path to input image")
+    parser.add_argument("--output", type=str, default="out_put/dip_black_1.png", help="Path to output text file")
     parser.add_argument("--language", type=str, default="chinese")
     parser.add_argument("--mode", type=str, default="standard")
     parser.add_argument("--background", type=str, default="white", choices=["black", "white"],
